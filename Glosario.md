@@ -1,56 +1,25 @@
-# Glosario de términos usados en el proyecto.
+# Glosario de términos usados en los requisitos no funcionales.
 
-- Feature
-  - Referido a una funcionalidad específica, comportamiento o capacidad de un sistema, aplicación o módulo que busca satisfacer
-una necesidad del usuario o resolver un problema concreto. Se puede ver como un bloque fundamental que compone el valor entregado al
-usuario.
+- Seguridad
+  - Definido como el conjunto de medidas diseñadas para proteger la integridad, confidencialidad y disponibilidad de los datos del sistema y de los usuarios, no simplemente es evitar hackeos, sino garantizar que la información sensible sea obfuscada y no sea accesible por personas no autorizadas.
 
-![](./images/feature.png)
+- Rendimiento
+  - Referido a la capacidad del sistema para responder ante solicitudes de los usuarios dentro de un tiempo aceptable y bajo condiciones normales de carga, dentro del rendimiento se incluye velocidad de respuesta, uso eficiente de recursos, es decir, aprovechamiento de los recursos computacionales disponibles mientras se minimiza su consumo innecesario, así como la experiencia fluida durante operaciones pesadas, por ejemplo, subir archivos.
 
-- Requisito Funcional (RF)
-  - Especificación que describe lo que un sistema debe hacer desde la perspectiva del usuario, este define funciones, comportamientos
-  y capacidades que el sistema debe ofrecer para cumplir con las necesidades del usuario final.
+- Escabilidad
+  - Capacidad del sistema para mantener un determinado nivel de rendimiento sin importar el aumento en la carga de trabajo, por ejemplo, más usuarios o archivos.
 
+- Disponibilidad
+  - Medida en la que se encuentra cuánto tiempo el sistema está operativo y accesible a los usuarios cuando se necesita, comúnmente medido por medio de porcentajes.
 
-- Requisito No Funcional (RNF)
-  - Especificación que describe cómo debe comportarse un sistema, definiendo criterios de calidad, restricciones y propiedades que no se
-  encuentran directamente relacionadas con funciones específicas, sin embargo, estas afectan la experiencia del usuario, rendimiento, seguridad
-y mantenibilidad del software.
+- Tolerancia a fallos
+  - Capacidad del sistema para continuar funcionando, inclusive a medida reducida, o recuperarse rápidamente en caso de un error interno, fallo de hardware o interrupción en la red.
 
-![](./images/rfrnf.png)
+- Usabilidad
+  - Medida en donde se encuentra la facilidad con la que los usuarios tienen la capacidad de aprender y utilizar el sistema para lograr sus objetivos de manera efectiva, así como mantener errores manejables y el sistema se adapte al flujo de trabajo del usuario.
 
-- Backlog
-  - Lista priorizada de trabajo pendiente realizado en un proyecto de software, representa lo que se necesita construir, mejorar o corregir,
-    organizado según la importancia y valor de las tareas.
-![](./images/backlog.png)
-  
-  - Issue
-    - Representa cualquier elemento que debe ser registrado, rastreado y resuelto durante el ciclo de vida del desarrollo, no necesariamente
-    representa un error, igualmente puede representar una nueva funcionalidad solicitada.
-![](./images/issue.png)
+- Mantenibilidad
+  - Facilidad con la que un sistema puede ser modificado para corregir errores, mejorar el rendimiento o adaptarse a nuevos requisitos, como por ejemplo, un código con buenas técnicas de programación y la menor cantidad de code smells posibles.
 
-  - Weekly
-    - En el contexto de desarrollo de software, este se refiere a ritmos, ciclos o actividades que ocurren cada semana,
-      este mismo es fundamental para la planificación, coordinación y entrega continua en equipos de desarrollo.
-
- ![](./images/weekly.png)
-
-  - Bitácora
-    - Registro cronológico que documenta el progreso, decisiones, incidentes y actividades relacionadas con un proyecto de software.
-    
-      ![](./images/bitácora.png)
-
-  - Feature Scope
-    - Define límites, fronteras y especificaciones detalladas de una funcionalidad dentro de un proyecto de software. Este determina
-      lo que está incluido y lo que queda fuera del trabajo a realizar.
-      Este establece:
-      - Qué se construirá
-      - Cómo funcionará
-      - Qué no se incluirá
-      - Dependencias necesarias
-      - Criterios de aceptación para considerar la feature completa
-![](./images/featurescope.png)
-
-  - Revisión IA
-    - Uso de inteligencia artificial para evaluar, analizar o mejorar diversos aspectos del desarrollo de software.
-    
+- Arquitectura
+  - Estructura fundamental del sistema, define cómo están organizados los componentes, así como la interacción entre ellos y su gestión de datos correspondiente.
